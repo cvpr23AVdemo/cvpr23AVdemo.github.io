@@ -76,8 +76,3 @@ td.algorithm {
 td.synthesis {
   text-align:center;
 }
-
-#container{width:100%;}
-#left{float:left;width:100px;}
-#right{float:right;width:100px;}
-#center{margin:0 auto;width:100px;}
