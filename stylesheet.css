@@ -76,5 +76,8 @@ td.algorithm {
 td.synthesis {
   text-align:center;
 }
-.div-a{ float:left;width:49%;border:1px} 
-.div-b{ float:left;width:49%;border:1px} 
+
+#container{width:100%;}
+#left{float:left;width:100px;}
+#right{float:right;width:100px;}
+#center{margin:0 auto;width:100px;}
