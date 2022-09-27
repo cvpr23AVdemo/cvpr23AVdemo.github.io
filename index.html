@@ -2,45 +2,27 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Audio samples from "Tacotron: Towards End-to-End Speech Synthesis"</title>
+    <title>Video demo samples"</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
   </head>
   <body>
     <article>
       <header>
-        <h1>Audio samples from "Tacotron: Towards End-to-End Speech Synthesis"</h1>
+        <h1>Seen rooms, baseline models</h1>
       </header>
     </article>
 
-    <div><b>Paper:</b> <a href="https://arxiv.org/abs/1703.10135">arXiv</a> <a href="http://www.interspeech2017.org/program/technical-program/">Interspeech 2017</a></div>
-    <div><b>Authors:</b> Yuxuan Wang, RJ Skerry-Ryan, Daisy Stanton, Yonghui Wu, Ron J. Weiss, Navdeep Jaitly, Zongheng Yang, Ying Xiao, Zhifeng Chen, Samy Bengio, Quoc Le, Yannis Agiomyrgiannakis, Rob Clark, Rif A. Saurous</div>
-    <div><b>Abstract:</b> A text-to-speech synthesis system typically consists
-      of multiple stages, such as a text analysis frontend, an acoustic model
-      and an audio synthesis module. Building these components often requires
-      extensive domain expertise and may contain brittle design choices. In this
-      paper, we present Tacotron, an end-to-end generative text-to-speech model
-      that synthesizes speech directly from characters. Given &lt;text,
-      audio&gt; pairs, the model can be trained completely from scratch with
-      random initialization. We present several key techniques to make the
-      sequence-to-sequence framework perform well for this challenging
-      task. Tacotron achieves a 3.82 subjective 5-scale mean opinion score on US
-      English, outperforming a production parametric system in terms of
-      naturalness. In addition, since Tacotron generates speech at the frame
-      level, it's substantially faster than sample-level autoregressive
-      methods.</div>
-
-    <div><br/>All of the below phrases are unseen by Tacotron during training. <a href="index.html">Click here for more from the Tacotron team.</a></div>
-
+  
     <div>
-      <h3>Tacotron works well on out-of-domain and complex words.</h3>
+      <h3>Room frl_apartment_1_final_complete</h3>
       <table>
-        <tr><td class="transcript">“Generative adversarial network or variational auto-encoder.”</td></tr>
-        <tr><td><audio controls><source src="demos/gan_or_vae_r2.wav"></audio></td></tr>
+        <tr><td class="transcript">“Gt demo video.”</td></tr>
+        <tr><td><video controls><source src="demos/demo_all/frl_apartment_1_final_complete_gt.mp4"></video></td></tr>
       </table>
 
       <table>
-        <tr><td class="transcript">“Basilar membrane and otolaryngology are not auto-correlations.”</td></tr>
-        <tr><td><audio controls><source src="demos/basilar.wav"></audio></td></tr>
+        <tr><td class="transcript">“pred demo video.”</td></tr>
+        <tr><td><video controls><source src="demos/demo_all/frl_apartment_1_final_complete.mp4"></video></td></tr>
       </table>
     </div>
 
